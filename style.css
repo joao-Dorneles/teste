@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+h1 {
+    color: red;
+    animation: teste 1.5s infinite;
+    font-size: 200px;
+    transition: 0.5s;
+}
+
+h1:hover {
+    transform: scale(1.5);
+}
+
+@keyframes teste {
+    0% {
+        color: red;
+    }
+    50% {
+        color: blue;
+    }
+    100% {
+        color: red;
+    }
+}
